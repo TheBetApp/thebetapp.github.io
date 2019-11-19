@@ -408,6 +408,8 @@ h3 {
 .boxed-btn3 {
  
   background: #0181f5;
+  min-width: 197px;
+    margin-bottom: 17px;
  
   background: -moz-linear-gradient(left, #0181f5 0%, #1c70c8 100%);
  
@@ -1254,6 +1256,20 @@ h3 {
     height: 420px;
     background-size: contain;
   }
+
+  .col-xs-6 {
+    width:50%;
+  }
+
+  .slider_text{
+    margin-top: 20px !important;
+    margin-left: 18px;
+  }
+
+  .exchange-img{
+    margin-right: 10px;margin-top: 62px;
+  }
+
 }
 
 
@@ -1277,12 +1293,38 @@ h3 {
     font-size: 33px;
     letter-spacing: 3px;
   }
+
+  .col-xs-6 {
+    width:50%;
+  }
+
+  .slider_text{
+    margin-top: 20px !important;
+    margin-left: 18px;
+  }
+
+  .exchange-img{
+    margin-right: 10px;margin-top: 62px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
  
   .slider_area .single_slider .slider_text h3 {
     font-size: 30px;
+  }
+
+  .col-xs-6 {
+    width:50%;
+  }
+
+  .slider_text{
+    margin-top: 20px !important;
+    margin-left: 18px;
+  }
+
+  .exchange-img{
+    margin-right: 10px;margin-top: 62px;
   }
 }
 
@@ -1326,7 +1368,37 @@ h3 {
 @media (max-width: 767px) {
  
   .overview_section {
-    padding-bottom: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  #overview_section{
+    padding-bottom: 149px;
+  }
+
+  .thumb_1{
+    top:660px !important;
+  }
+
+  #token_benefits{
+    padding-top: 0px !important;
+  }
+
+  .token_section .single_department {
+    min-height: 0px !important;
+  }
+
+  #distribution-section .thumb_1 img {
+    width:100%;
+  }
+
+  #roadmap_section {
+    padding-top: 35px !important;
+  }
+
+  #roadmap_section .thumb_2 img {
+    width:100% !important;
+
   }
 }
 
