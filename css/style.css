@@ -1267,7 +1267,7 @@ h3 {
   }
 
   .exchange-img{
-    margin-right: 10px;margin-top: 62px;
+    margin-right: 0px;margin-top: 62px;
   }
 
 }
@@ -1304,7 +1304,7 @@ h3 {
   }
 
   .exchange-img{
-    margin-right: 10px;margin-top: 62px;
+    margin-right: 0px;margin-top: 62px;
   }
 }
 
@@ -1376,8 +1376,12 @@ h3 {
     padding-bottom: 149px;
   }
 
+  .footer .socail_links ul li a{
+    width: 44px !important;
+  }
+
   .thumb_1{
-    top:660px !important;
+    top:726px !important;
   }
 
   #token_benefits{
@@ -1400,6 +1404,10 @@ h3 {
     width:100% !important;
 
   }
+
+  /* #token_section .thumb_2 img {
+    margin-left:-10px !important;
+  } */
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
